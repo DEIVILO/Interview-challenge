@@ -77,7 +77,7 @@ Each user has the following structure:
 **NOTE:** All existing `data-test` attributes must not be moved/removed, otherwise automated tests will fail.
 
 ### Design
-* [Style guide link on Figma](https://www.figma.com/file/KnO6VpOnWyHbFWhALbDqmy/Hackerrank?type=design&node-id=0-1&t=SCieW94ySlwOLWJB-0)
+* [Style guide link on Figma]
 
 
 ## Backend functionality requirements:
