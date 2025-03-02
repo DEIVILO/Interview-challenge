@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\LoginRequest;
+use App\Http\Requests\RegisterRequest;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -32,7 +33,11 @@ class AccountController extends Controller
      */
     public function login(LoginRequest $request): RedirectResponse
     {
-        $request->authenticate();
+       if (!Auth::attempt($request->only('email', 'password'))) {
+            return redirect('/')->withErrors([
+                'email' => 'Password or e-mail is incorrect!',
+            ]);
+        }
 
         $request->session()->regenerate();
 
@@ -44,7 +49,7 @@ class AccountController extends Controller
      * Logout user from the system
      *
      */
-    public function logout(Request $request)
+    public function logout(Request $request): RedirectResponse
     {
         Auth::logout();
 
@@ -55,46 +60,25 @@ class AccountController extends Controller
         return redirect('/');
     }
 
-/**
- * Register user in the system
- *
- * @param Request $request
- */
-public function register(Request $request)
-{
+    /**
+     * Register user in the system
+     *
+     * @param RegisterRequest $request
+     */
+    public function register(RegisterRequest $request): RedirectResponse
+    {
+        $user = User::create([
+            'firstname' => $request->firstname,
+            'lastname' => $request->lastname,
+            'email' => $request->register_email,
+            'password' => Hash::make($request->register_password),
+            'subscribed' => $request->subscribed ? true : false,
+        ]);
+        Auth::login($user);
 
-    $validator = Validator::make($request->all(), [
-        'firstname' => 'required|string|max:255',
-        'lastname' => 'required|string|max:255',
-        'register_email' => 'required|string|max:255|email|unique:' . User::class,
-        'register_password' => [
-            'required',
-            Password::min(8)->letters()->numbers()
-        ],
-        'password_confirmation' => ['required', 'same:register_password'],
-    ], [
-        'password_confirmation.same' => 'The password confirmation does not match.',
-    ]);
-
-    $validator->validate();
-
-    $validated = $validator->validated();
-
-    $subscribed = $request->subscribed == 1;
-
-    $user = User::create([
-        'firstname' => $validated['firstname'],
-        'lastname' => $validated['lastname'],
-        'email' => $validated['register_email'],
-        'password' => Hash::make($validated['register_password']),
-        'subscribed' => $subscribed,
-    ]);
-
-    Auth::login($user);
-
-    return redirect('/')
-        ->with('status', "User registered successfully!");
-}
+        return redirect('/')
+            ->with('status', "User registered successfully!");
+    }
 
     /**
      * Display a success message for logged-in users

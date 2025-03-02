@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests" tests="29" assertions="0" errors="29" warnings="0" failures="0" skipped="0" time="3.741900">
+    <testsuite name="Tests\Browser\AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" tests="13" assertions="0" errors="13" warnings="0" failures="0" skipped="0" time="0.096915">
+      <testcase name="testCanAccessIndex" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="59" assertions="0" time="0.053297">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testCanAccessIndex
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+        <system-out>
+Deprecated: Illuminate\Container\Container::beforeResolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1114
+
+Deprecated: Illuminate\Container\Container::resolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1134
+
+Deprecated: Illuminate\Container\Container::afterResolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1154
+
+Deprecated: Illuminate\Container\Container::setInstance(): Implicitly marking parameter $container as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1393
+
+Deprecated: Illuminate\Contracts\Container\Container::resolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php on line 173
+
+Deprecated: Illuminate\Contracts\Container\Container::afterResolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php on line 182
+
+Deprecated: Illuminate\Support\Arr::first(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 183
+
+Deprecated: Illuminate\Support\Arr::last(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 212
+
+Deprecated: Illuminate\Events\Dispatcher::__construct(): Implicitly marking parameter $container as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 65
+
+Deprecated: voku\helper\ASCII::to_ascii(): Implicitly marking parameter $replace_single_chars_only as nullable is deprecated, the explicit nullable type must be used instead in /Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/voku/portable-ascii/src/voku/helper/ASCII.php on line 830
+</system-out>
+      </testcase>
+      <testcase name="testLoginEmailValidation" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="73" assertions="0" time="0.003696">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testLoginEmailValidation
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testRegisterEmailValidation" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="90" assertions="0" time="0.003747">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testRegisterEmailValidation
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testRegisterPasswordValidation" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="107" assertions="0" time="0.003819">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testRegisterPasswordValidation
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testLoginErrorMessage" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="124" assertions="0" time="0.003163">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testLoginErrorMessage
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testRegisterSuccessMessage" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="142" assertions="0" time="0.003695">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testRegisterSuccessMessage
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testSuccessRouteGuard" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="163" assertions="0" time="0.003257">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testSuccessRouteGuard
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testDoesLoginFail" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="177" assertions="0" time="0.003846">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testDoesLoginFail
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testDoesRegisterFail" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="195" assertions="0" time="0.003325">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testDoesRegisterFail
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testDoesRegisterSucceed" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="216" assertions="0" time="0.003765">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testDoesRegisterSucceed
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testDoesLoginSucceed" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="238" assertions="0" time="0.004353">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testDoesLoginSucceed
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testSuccessPageContent" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="257" assertions="0" time="0.003470">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testSuccessPageContent
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+      <testcase name="testLogout" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppFunctionalityTest.php" line="279" assertions="0" time="0.003481">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testLogout
+Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] Connection refused (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE')
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:784
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:763
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:674
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:124
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php:74
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:69
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/WipeCommand.php:46
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:67
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php:28
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php:42
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Container/Container.php:653
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Command/Command.php:298
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Command.php:120
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:1040
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:301
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/symfony/console/Application.php:171
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:94
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Console/Application.php:185
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:263
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:260
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Testing/PendingCommand.php:413
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:19
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:126
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php:91
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/TestCase.php:23</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Browser\AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="3.644985">
+      <testcase name="testIsCorrectFontFamily" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="109" assertions="0" time="0.229568">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsCorrectFontFamily
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:111</error>
+      </testcase>
+      <testcase name="testIsButtonCorrectColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="126" assertions="0" time="0.224941">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsButtonCorrectColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:128</error>
+      </testcase>
+      <testcase name="testIsHeaderIconsCorrectColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="146" assertions="0" time="0.227307">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderIconsCorrectColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:148</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksCorrectColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="166" assertions="0" time="0.229977">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksCorrectColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:168</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksWithoutUnderline" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="186" assertions="0" time="0.232071">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksWithoutUnderline
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:188</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksCorrectWeight" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="206" assertions="0" time="0.225774">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksCorrectWeight
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:208</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksUppercase" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="225" assertions="0" time="0.229461">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksUppercase
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:227</error>
+      </testcase>
+      <testcase name="testDoesHeaderBarHaveShadow" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="242" assertions="0" time="0.223932">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testDoesHeaderBarHaveShadow
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:244</error>
+      </testcase>
+      <testcase name="testForgotPasswordColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="260" assertions="0" time="0.226129">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testForgotPasswordColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:262</error>
+      </testcase>
+      <testcase name="testForgotPasswordUnderline" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="279" assertions="0" time="0.228443">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testForgotPasswordUnderline
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:281</error>
+      </testcase>
+      <testcase name="testFooterLinksColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="297" assertions="0" time="0.228497">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testFooterLinksColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:299</error>
+      </testcase>
+      <testcase name="testFooterLinksUnderline" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="317" assertions="0" time="0.225242">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testFooterLinksUnderline
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:319</error>
+      </testcase>
+      <testcase name="testCheckboxStyling" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="337" assertions="0" time="0.226857">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testCheckboxStyling
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:339</error>
+      </testcase>
+      <testcase name="testRegisterSectionTitle" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="371" assertions="0" time="0.224803">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testRegisterSectionTitle
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:373</error>
+      </testcase>
+      <testcase name="testRegisterFormTitles" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="389" assertions="0" time="0.232913">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testRegisterFormTitles
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:391</error>
+      </testcase>
+      <testcase name="testFooterCopyright" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php" line="414" assertions="0" time="0.229071">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testFooterCopyright
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/DuskTestCase.php:43
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/ernests/Documents/Code/Reidzija tasks/Interview-challenge/tests/Browser/AppStylingTest.php:416</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
